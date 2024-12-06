@@ -1,0 +1,128 @@
+/* General Reset */
+body, ul, li, h1, form {
+    margin: 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+form input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px 20px;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background: #0056b3;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background: #f9f9f9;
+    transition: background 0.3s ease;
+}
+
+li.completed {
+    background: #d4edda;
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+li:hover {
+    background: #f1f1f1;
+}
+
+.actions a {
+    margin-left: 10px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.actions a:nth-child(1) {
+    color: #0056b3;
+}
+
+.actions a:nth-child(1):hover {
+    color: #0056b3;
+}
+
+.actions a:nth-child(2) {
+    color: #dc3545;
+}
+
+.actions a:nth-child(2):hover {
+    color: #c82333;
+}
+
+/* Dashboard Button Styling */
+a button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background 0.3s ease;
+}
+
+a button:hover {
+    background: #0056b3;
+}
